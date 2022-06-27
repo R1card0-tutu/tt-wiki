@@ -1,0 +1,2 @@
+warning: docs/node_modules/@leancloud/adapters-superagent/node_modules/superagent/dist/superagent.js 中的 CRLF 将被 LF 替换。<
+在工作区中该文件仍保持原有的换行符。

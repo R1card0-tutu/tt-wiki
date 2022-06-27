@@ -61,7 +61,7 @@
   ],
   "pluginsConfig": {
     "insert-logo": {
-      "url": "./images/icon/logo.png",
+      "url": "https://r1card0-tutu.github.io/tt-wiki/images/icon/logo.png",
       "style": "background: none; max-height: 45px; min-height: 45px"
     },
     "favicon": {

@@ -1,0 +1,150 @@
+{
+  "root": ".",
+  "title" : "r1card0 知识库",
+  "author" : "r1card0",
+  "description" : "网络安全学习路上的知识总结，慢就是快",
+  "language": "zh-hans",
+  "links": {
+    "sidebar": {
+      "个人主页": "https://r1card0-tutu.github.io/tt-wiki/",
+      "GitHub": "https://github.com/r1card0-tutu"
+    }
+  },
+  "variables": {
+    "blog": "https://github.com/r1card0-tutu"
+  },
+  "pdf": {
+    "pageNumbers": true,
+    "fontFamily": "Arial",
+    "fontSize": 16,
+    "paperSize": "a4",
+    "margin": {
+      "right": 0,
+      "left": 0,
+      "top": 0,
+      "bottom": 0
+    }
+  },
+  "plugins": [
+    "-search",
+    "-lunr",
+    "-sharing",
+    "-highlight",
+    "insert-logo",
+    "favicon",
+    "search-pro",
+    "splitter",
+    "github",
+    "sharing-plus",
+    "-copy-code-button",
+    "code",
+    "advanced-emoji",
+    "emphasize",
+    "-image-captions",
+    "anchor-navigation-ex",
+    "alerts",
+    "flexible-alerts",
+    "auto-scroll-table",
+    "lightbox",
+    "-popup",
+    "tbfed-pagefooter",
+    "-page-footer",
+    "hide-element",
+    "-back-to-top-button",
+    "prism",
+    "chapter-fold",
+    "-expandable-chapters-small",
+    "expandable-chapters",
+    "donate",
+    "valine",
+    "baidu-tongji-with-multiple-channel"
+  ],
+  "pluginsConfig": {
+    "insert-logo": {
+      "url": "https://r1card0-tutu.github.io/tt-wiki/images/icon/logo.png",
+      "style": "background: none; max-height: 45px; min-height: 45px"
+    },
+    "favicon": {
+      "shortcut": "./images/icon/favicon.ico",
+      "bookmark": "./images/icon/favicon.ico",
+      "appleTouch": "./images/icon/favicon.ico",
+      "appleTouchMore": {
+        "120x120": "./images/icon/favicon.ico",
+        "180x180": "./images/icon/favicon.ico"
+      }
+    },
+    "github": {
+      "url": "https://github.com/R1card0-tutu"
+    },
+    "sharing": {
+      "douban": false,
+      "facebook": false,
+      "google": true,
+      "pocket": false,
+      "qq": false,
+      "qzone": false,
+      "twitter": false,
+      "weibo": false,
+      "all": []
+    },
+    "code": {
+      "copyButtons": true
+    },
+    "flexible-alerts": {
+      "style": "callout",
+      "comment": {
+        "label": "Comment",
+        "icon": "fa fa-comments",
+        "className": "info"
+      }
+    },
+    "lightbox": {
+      "includeJQuery": false,
+      "sameUuid": true,
+      "options": {
+        "resizeDuration": 200,
+        "wrapAround": true
+      }
+    },
+    "tbfed-pagefooter": {
+      "copyright": "Copyright ©R1card0Mtu",
+      "modify_label": "更新时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "hide-element": {
+      "elements": [
+        ".gitbook-link"
+      ]
+    },
+    "prism": {
+      "css": [
+        "prismjs/themes/prism-tomorrow.css"
+      ]
+    },
+    "donate": {
+      "wechat": "./images/qr-wechat.png",
+      "alipay": "./images/qr-alipay.jpg",
+      "title": "",
+      "button": "赞赏",
+      "wechatText": "微信打赏",
+      "alipayText": "支付宝打赏"
+    },
+    "valine": {
+      "placeholder": "请写下你的评论吧...",
+      "appId": "SgpscfQ9xIaQ1rhYNehrrL8s-MdYXbMMI",
+      "appKey": "vuPt1hPCt8fYYBDSkayLO65P",
+      "serverURLs": "https://sgpscfq9.api.lncldglobal.com"
+    },
+    "anchor-navigation-ex": {
+      "tocLevel1Icon": "fa fa-hand-o-right",
+      "tocLevel2Icon": "fa fa-hand-o-right",
+      "tocLevel3Icon": "fa fa-hand-o-right",
+      "multipleH1": false,
+      "multipleH2": false,
+      "multipleH3": false,
+      "multipleH4": false,
+      "showLevelIcon": false,
+      "showLevel": false
+        }
+  }
+}
